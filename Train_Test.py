@@ -221,11 +221,11 @@ def parameter_selection(modelConfig: Dict):
     '''
     To select the optimal m and eta1
     '''
-    # for m in [1, 5, 10, 15, 20, 25, 30]:
-    #     for eta1 in [1e-3, 1e-2, 1e-1, 1e0, 1e1, 1e2]:
-    #         modelConfig['m'] = m
-    #         modelConfig['eta1'] = eta1
-    #         train(modelConfig)
+    for m in [1, 5, 10, 15, 20, 25, 30]:
+        for eta1 in [1e-3, 1e-2, 1e-1, 1e0, 1e1, 1e2]:
+            modelConfig['m'] = m
+            modelConfig['eta1'] = eta1
+            train(modelConfig)
     max_auc = 0
     opt_m = 0
     opt_eta1 = 0
