@@ -1,6 +1,6 @@
 # Hyperspectral Target Detection Based on Interpretable Representation Network (HTD-IRN), IEEE TGRS, 2023.
 
-## files
+## Files
 ### `Main.py`, `Model.py`, `Train_Test.py`,`ts_generation.py`,`utils.py`.
 
 ## Requirement
